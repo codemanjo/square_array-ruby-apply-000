@@ -1,9 +1,7 @@
-array = ["1" "2" "3"]
+array = [4,66,33]
 
 def square_array(array)
-   array =[ ]
-   array {[i] arr << i*i}
-  end
+   blank =[]
+   array.each {|i| blank << i**2}
+  return blank
 end
-
-square_array(array)
